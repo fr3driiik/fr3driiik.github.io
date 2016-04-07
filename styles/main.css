@@ -1,11 +1,26 @@
+#subjectList {
+	margin: 0;
+}
+#subjectList li{
+	background: blue;
+	color: #79FF1F;
+	display: inline-block;
+	list-style-typ: none;
+	margin: 0;
+	text-align: center;
+	height: 60px;
+	width: 24%;
+}
+
 body {
-	background: #8517CF;
-	color: red;
+	background: #A51FFF;
+	color: #FF351F;
 	margin: 0;
 }
 body header {
 	background: black;
 	margin: 0;
+	padding: 10px;
 }
 
 body header h1{
