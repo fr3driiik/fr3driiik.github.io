@@ -3,13 +3,16 @@
 }
 #subjectList li{
 	background: blue;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #111;
 	color: #79FF1F;
 	display: inline-block;
 	list-style-typ: none;
-	margin: 0;
+	margin: 0 1%;
+	padding: 20px 0px;
 	text-align: center;
-	height: 60px;
-	width: 24%;
+	width: 22%;
 }
 
 body {
