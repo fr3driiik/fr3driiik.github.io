@@ -3,8 +3,7 @@ function doThisOnClick() {
 }
 var originalColor;
 function doThisOnMouseEnter(listElement) {
-	alert("hej");
-	listElement.style.backgroundColor = originalColor; //funkar inte
+	alert(listElement.target.innerHTML);
 }
 var doThisOnMouseOut = function() {
 	textButton.style.color = originalColor;
@@ -12,14 +11,9 @@ var doThisOnMouseOut = function() {
 var textButton = document.getElementById("jsText3");
 var originalColor = textButton.style.color;
 textButton.style.cursor = "pointer";
-textButton.addEventListener("click", doThisOnClick);
-textButton.addEventListener("mouseenter", doThisOnMouseEnter);
-textButton.addEventListener("mouseleave", doThisOnMouseOut);
 
-var listElements = document.getElementById("subjectList").getElementsByTagName("li");
+var list = document.getElementById("subjectList");
+var listElements = list.getElementsByTagName("li");
 for(var i = 0; i < listElements.length; i++){
-	alert(i);
-	listElements[i].addEventListener("click", function(){
-		doThisOnMouseEnter(listElements[i]);
-	});
+	listElements[i].addEventListener("click", doThisOnMouseEnter);
 }
