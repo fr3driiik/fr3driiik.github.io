@@ -1,6 +1,7 @@
 #subjectList {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 #subjectList li{
 	background: blue;
@@ -11,14 +12,14 @@
 	display: inline-block;
 	list-style-typ: none;
 	margin: 5px 10px;
-	padding: 5px 0;
+	padding: 5px 40px;
 	text-align: center;
 	width: 10%;
 }
 
 body {
 	background: #A51FFF;
-	color: #999;
+	color: white;
 	margin: 0;
 }
 body header {
