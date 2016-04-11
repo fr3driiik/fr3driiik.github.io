@@ -1,33 +1,44 @@
-#subjectList {
+.subjectList {
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-#subjectList .item3 {
-	color: white;
-}
-
-#subjectList .item3 h3{
-	margin: 0;
-}
-
-#subjectList li{
+.subjectList .subjectListItem{
 	background: blue;
 	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	box-shadow: 0 0 10px #333;
 	color: #79FF1F;
 	display: inline-block;
 	list-style-typ: none;
 	margin: 5px 10px;
-	padding: 5px 40px;
-	text-align: center;
-	width: 10%;
+	vertical-align: top;
+	width: 150px;
 }
 
-#subjectList li ul li {
-	background: gray;
+.subjectList .subjectListItem h3{
+	background-color: blue;
+	border-radius: 5px 5px 0 0 ;
+	color: white;
+	margin: 0;
+	padding: 5px 0;
+}
+
+.subjectList .subjectListItem ul{
+	background-color: white;
+	list-style-type: none;
+	padding: 5px 0;
+}
+
+.subjectList .subjectListItem ul li{
+	color: black;
+	padding: 0 5px;
+}
+
+.subjectListItem ul {
+	padding: 0;
+	text-align: left;
 }
 
 body {
