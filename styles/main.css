@@ -3,6 +3,15 @@
 	padding: 0;
 	text-align: center;
 }
+
+#subjectList .item3 {
+	color: white;
+}
+
+#subjectList .item3 h3{
+	margin: 0;
+}
+
 #subjectList li{
 	background: blue;
 	border: 1px solid black;
@@ -17,8 +26,14 @@
 	width: 10%;
 }
 
+#subjectList li ul li {
+	background: gray;
+}
+
 body {
-	background: #A51FFF;
+	background-color: purple;
+	background-image: url(http://images.freeimages.com/images/previews/d3c/hubble-1632627.jpg);
+	background-size: cover;
 	color: white;
 	margin: 0;
 }
