@@ -43,11 +43,16 @@
 
 body {
 	background-color: purple;
-	background-image: url(http://images.freeimages.com/images/previews/d3c/hubble-1632627.jpg);
-	background-size: cover;
+	background-image: url("../media/background.jpg");
 	color: white;
 	margin: 0;
 }
+
+body h2 {
+	color: gray;
+	text-shadow: 1px 1px black;
+}
+
 body header {
 	background: black;
 	margin: 0;
