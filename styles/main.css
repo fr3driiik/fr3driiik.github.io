@@ -1,68 +1,59 @@
 #findMe {
-	color: purple;
-}
+  color: blue; }
 
 .subjectList {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
+  margin: 0;
+  padding: 0;
+  text-align: center; }
 
-.subjectList .subjectListItem{
-	background: blue;
-	border: 1px solid black;
-	border-radius: 5px 5px 0 0;
-	box-shadow: 0 0 10px #333;
-	color: #79FF1F;
-	display: inline-block;
-	list-style-typ: none;
-	margin: 5px 10px;
-	vertical-align: top;
-	width: 150px;
-}
+.subjectList .subjectListItem {
+  background: blue;
+  border: 1px solid black;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 10px #333;
+  color: #79FF1F;
+  display: inline-block;
+  list-style-type: none;
+  margin: 5px 10px;
+  vertical-align: top;
+  width: 150px; }
 
-.subjectList .subjectListItem h3{
-	background-color: blue;
-	border-radius: 5px 5px 0 0 ;
-	color: white;
-	margin: 0;
-	padding: 5px 0;
-}
+.subjectList .subjectListItem h3 {
+  background-color: blue;
+  border-radius: 5px 5px 0 0;
+  color: white;
+  margin: 0;
+  padding: 5px 0; }
 
-.subjectList .subjectListItem ul{
-	background-color: white;
-	list-style-type: none;	
-	padding: 5px 0;
-}
+.subjectList .subjectListItem ul {
+  background-color: white;
+  list-style-type: none;
+  padding: 5px 0; }
 
-.subjectList .subjectListItem ul li{
-	color: black;
-	padding: 0 5px;
-}
+.subjectList .subjectListItem ul li {
+  color: black;
+  padding: 0 5px; }
 
 .subjectListItem ul {
-	padding: 0;
-	text-align: left;
-}
+  padding: 0;
+  text-align: left; }
 
 body {
-	background-color: purple;
-	background-image: url("../media/background.jpg");
-	color: white;
-	margin: 0;
-}
+  background-color: purple;
+  background-image: url("../media/background.jpg");
+  color: white;
+  margin: 0; }
 
 body h2 {
-	color: gray;
-	text-shadow: 1px 1px black;
-}
+  color: gray;
+  text-shadow: 1px 1px black; }
 
 body header {
-	background: black;
-	margin: 0;
-	padding: 10px;
-}
+  background: black;
+  margin: 0;
+  padding: 10px; }
 
-body header h1{
-	margin: 0;
-}
+body header h1 {
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
