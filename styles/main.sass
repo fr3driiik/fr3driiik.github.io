@@ -1,67 +1,80 @@
-#findMe
-  color: blue
+$header-text-color: grey
+$box-background-color: white
 
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  border-radius: $radius
 
-.subjectList
-  margin: 0
-  padding: 0
-  text-align: center
-
-
-.subjectList .subjectListItem
-  background: blue
-  border: 1px solid black
-  border-radius: 5px 5px 0 0
-  box-shadow: 0 0 10px #333
-  color: #79FF1F
-  display: inline-block
-  list-style-type: none
-  margin: 5px 10px
-  vertical-align: top
-  width: 150px
-
-
-.subjectList .subjectListItem h3
-  background-color: blue
-  border-radius: 5px 5px 0 0
-  color: white
-  margin: 0
-  padding: 5px 0
-
-
-.subjectList .subjectListItem ul
-  background-color: white
-  list-style-type: none
-  padding: 5px 0
-
-
-.subjectList .subjectListItem ul li
-  color: black
-  padding: 0 5px
-
-
-.subjectListItem ul
-  padding: 0
-  text-align: left
-
+=border-bottom-radius($radius)
+  -webkit-border-bottom-left-radius: $radius
+  border-bottom-left-radius: $radius
+  -webkit-border-bottom-right-radius: $radius
+  border-bottom-right-radius: $radius
 
 body
-  background-color: purple
-  background-image: url("../media/background.jpg")
-  color: white
-  margin: 0
+  background-color: lightskyblue
+  margin: 0 3%
+
+  header
+    background-color: darkblue
+    +border-bottom-radius(20px)
+    border: 2px solid black
+    box-shadow: 0 0 10px 1px darkslategray
+    color: $header-text-color
+    margin: 0 0 2% 0
+
+    #logoSection
+      display: inline-block
+
+    #navSection
+      display: inline-block
+      width: 60%
+
+      h1
+        padding: 0
+        text-align: center
+
+      nav ul li
+        display: inline-block
+        list-style-type: none
+
+    #loginSection
+      display: inline-block
 
 
-body h2
-  color: gray
-  text-shadow: 1px 1px black
+  article
+    background-color: $box-background-color
+    +border-radius(10px)
+    box-shadow: 0 0 5px 1px darkslategray
+    border: 1px solid darkblue
+    display: inline-block
+    float: left
+    margin: 1% 1% 1% 0
+    padding: 1%
+    height: 500px
+    width: 50%
 
+  aside
+    background-color: $box-background-color
+    +border-radius(10px)
+    border: 1px solid darkblue
+    box-shadow: 0 0 5px 1px darkslategray
+    display: inline-block
+    float: right
+    margin: 1% 0 1% 1%
+    padding: 1%
+    width: 30%
 
-body header
-  background: black
-  margin: 0
-  padding: 10px
+  footer
+    position: fixed
+    left: 0
+    bottom: 0
+    height: auto
+    width: 97%
+    background: black
+    color: white
+    display: inline-block
+    padding: 0 3%
 
-
-body header h1
-  margin: 0
+    #createdBy
+      float: right
