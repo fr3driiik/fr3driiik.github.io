@@ -2,7 +2,10 @@ body {
   background-color: lightskyblue;
   margin: 0 3%; }
   body header {
-    background-color: darkblue;
+    background-image: url(../media/headerIMG.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: white;
     -webkit-border-bottom-left-radius: 20px;
     border-bottom-left-radius: 20px;
     -webkit-border-bottom-right-radius: 20px;
