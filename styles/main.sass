@@ -1,7 +1,14 @@
 $color-page-background-yellow: #fce1b2
 $color-page-background-red: rgba(168, 88, 87, 0.1)
 $color-page-background-red-darker: rgba(168, 88, 87, 0.15)
-$color-page-background-red-strong: rgb(169, 88, 87)
+
+$color-page-article-red-light: rgb(169, 88, 87)
+$color-page-article-red-dark: rgb(140, 75, 75)
+$color-page-article-red-gradient: linear-gradient(0deg, $color-page-article-red-dark, $color-page-article-red-light)
+
+$color-page-title-red-dark: rgb(124, 20, 45)
+$color-page-title-red-light: rgb(165, 50, 85)
+$color-page-title-red-gradient: -webkit-linear-gradient(90deg, $color-page-title-red-dark, $color-page-title-red-light)
 
 =border-radius($radius)
 	-webkit-border-radius: $radius
@@ -29,6 +36,67 @@ body
 		margin: 0
 
 		#colorBar
-			background-color: $color-page-background-red-strong
+			background-color: $color-page-article-red-light
+			box-shadow: 0 0 5px $color-page-article-red-light
 			width: 100%
 			height: 10px
+
+		#imageSection img
+			display: inline-block
+			float: left
+			height: 10%
+			width: 10%
+			max-width: 100px
+
+		#titleSection
+			display: inline-block
+
+			#topLine
+				color: $color-page-title-red-light
+				margin: 10% 20% 0 20% 
+				font-size: 15px
+				font-family: "Bowlby One"
+				line-height: 15px
+				height: 15px
+				background: $color-page-title-red-gradient
+				-webkit-background-clip: text
+				-webkit-text-fill-color: transparent
+
+			#botLineFirst
+				color: $color-page-title-red-light
+				margin: 0 20% 
+				font-size: 50px
+				font-family: "Bowlby One"
+				line-height: 45px
+				height: 45px
+				width: 100%
+				background: $color-page-title-red-gradient
+				-webkit-background-clip: text
+				-webkit-text-fill-color: transparent
+
+				#botLineSecond
+					color: $color-page-title-red-light
+					display: inline-block
+					margin: 0
+					font-size: 25px
+					font-family: "Bowlby One"
+					line-height: 22px
+					width: auto
+					background: $color-page-title-red-gradient
+					-webkit-background-clip: text
+					-webkit-text-fill-color: transparent
+
+		#socialMedia
+			background: $color-page-article-red-gradient
+			border-radius: 5px
+			display: inline-block
+			float: right
+			padding: 10px
+
+			a
+				text-decoration: none
+
+				img
+					background-color: #55acee
+					border-radius: 5px
+					width: 30px

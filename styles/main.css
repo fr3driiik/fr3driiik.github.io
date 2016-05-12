@@ -7,7 +7,60 @@ body {
     margin: 0; }
     body header #colorBar {
       background-color: #a95857;
+      box-shadow: 0 0 5px #a95857;
       width: 100%;
       height: 10px; }
+    body header #imageSection img {
+      display: inline-block;
+      float: left;
+      height: 10%;
+      width: 10%;
+      max-width: 100px; }
+    body header #titleSection {
+      display: inline-block; }
+      body header #titleSection #topLine {
+        color: #a53255;
+        margin: 10% 20% 0 20%;
+        font-size: 15px;
+        font-family: "Bowlby One";
+        line-height: 15px;
+        height: 15px;
+        background: -webkit-linear-gradient(90deg, #7c142d, #a53255);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      body header #titleSection #botLineFirst {
+        color: #a53255;
+        margin: 0 20%;
+        font-size: 50px;
+        font-family: "Bowlby One";
+        line-height: 45px;
+        height: 45px;
+        width: 100%;
+        background: -webkit-linear-gradient(90deg, #7c142d, #a53255);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+        body header #titleSection #botLineFirst #botLineSecond {
+          color: #a53255;
+          display: inline-block;
+          margin: 0;
+          font-size: 25px;
+          font-family: "Bowlby One";
+          line-height: 22px;
+          width: auto;
+          background: -webkit-linear-gradient(90deg, #7c142d, #a53255);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent; }
+    body header #socialMedia {
+      background: linear-gradient(0deg, #8c4b4b, #a95857);
+      border-radius: 5px;
+      display: inline-block;
+      float: right;
+      padding: 10px; }
+      body header #socialMedia a {
+        text-decoration: none; }
+        body header #socialMedia a img {
+          background-color: #55acee;
+          border-radius: 5px;
+          width: 30px; }
 
 /*# sourceMappingURL=main.css.map */
